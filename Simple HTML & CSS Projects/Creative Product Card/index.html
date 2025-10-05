@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Product Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <input type="radio" name="addCard" id="closeCard" value="0" checked>
+        <input type="radio" name="addCard" id="openCard" value="1">
+        <input type="radio" name="addCard" id="addCard" value="2">
+        <div class="basicInfo">
+            <div class="title">
+                <div class="category">Chai</div>
+                <div class="name">Masala Chai</div>
+                <div class="info">Aromatic Indian tea brewed with spices and milk — a comforting classic.</div>
+            </div>
+            <div class="img">
+                <div class="item">
+                    <input type="radio" name="color" id="green" checked>
+                    <img src="chai.png" alt="">
+                </div>
+                <div class="item">
+                    <input type="radio" name="color" id="black">
+                    <img src="coffee.png" alt="">
+                </div>
+            </div>
+            <div class="colors">
+                <label for="green">
+                    <div class="ellipse" style="background-color: #C97B43;"></div>
+                </label>
+                <label for="black">
+                    <div class="ellipse" style="background-color: #2B1B0E;"></div>
+                </label>
+            </div>
+            <div class="sizes">
+                <label for="closeCard">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <label>
+                    <input type="radio" name="size" id="sizeS" checked>
+                    S
+                </label>
+                <label>
+                    <input type="radio" name="size" id="sizeM">
+                    M
+                </label>
+                <label>
+                    <input type="radio" name="size" id="sizeL">
+                    L
+                </label>
+                <label for="addCard">
+                    <i class="fa-solid fa-check"></i>
+                </label>
+            </div>
+        </div>
+        <div class="mores">
+            <div class="price">₹79</div>
+            <div class="start">
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+            </div>
+            <div class="addCard">
+                <label for="openCard">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </label>
+                <div class="box">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
